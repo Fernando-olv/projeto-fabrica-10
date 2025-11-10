@@ -1,6 +1,7 @@
 import requests
 
-#Sugestão de API: https://cep.awesomeapi.com.br/json/
+#Sugestão de API: https://cep.awesomeapi.com.br/
+#Documentação: https://docs.awesomeapi.com.br/api-cep
 
 def buscar_cep(cep_usuario):
     # Recebe um CEP e devolve o endereço de uma API
@@ -9,3 +10,4 @@ def descobrir_cep(endereco_usuario):
    # Recebe um endereço e pesquisa no Google esse endereço em busca do CEP.
 
    print()
+
